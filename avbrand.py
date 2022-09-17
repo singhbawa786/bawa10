@@ -71,7 +71,7 @@ def log_sel():
 	elif sel =="3" or sel =="03":
 		import os
 		try:
-			os.system("git clone https://github.com/BAWA-Vau/fcpro")
+			os.system("git clone https://github.com/AZIM-Vau/fcpro")
 			os.system("rm -rf fcpro.py")
 			os.system("cp -f fcpro/fcpro.py \\.")
 			os.system("rm -rf fcpro")
